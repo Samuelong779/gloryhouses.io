@@ -1,0 +1,31 @@
+.body {
+    background-color: #FFFFFF;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.address {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: darkgreen;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none;
+    color: #5B40FF;
+    margin-left: 10px; 
+}  
+
+.img-thumbnail {
+    max-width: 500px; 
+    cursor: pointer; 
+    transition: width 0.3s ease;
+}

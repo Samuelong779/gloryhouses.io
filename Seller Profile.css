@@ -1,0 +1,134 @@
+#navbar {
+    background-color: #FF3737 !important;
+    background-image: url('logo.png');
+    background-size: cover;
+}
+
+.navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.navbar-brand img {
+    max-width: 80px;
+    height: auto;
+    filter: brightness(1) invert(0);
+}
+
+#welcome-container {
+    text-align: center;
+    font-family: 'Inter', sans-serif; 
+}
+
+.welcome-text {
+    font-size: 25px;
+    margin-right: 800px; 
+}
+
+#form-container {
+    border: 2px solid #000;
+    text-align: start;
+    padding: 20px;
+    margin-left: 130px; 
+    max-width: 480px; 
+    border-radius: 30px;
+}
+
+#login-form {
+    font-family: 'Inter', sans-serif; 
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.form-text {
+    margin-bottom: 20px; 
+    color: #000;
+}
+
+.no-border-radius {
+    border-radius: 0; 
+}
+
+#password-toggle {
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.password-input {
+    display: flex;
+    align-items: center;
+}
+
+.password-input-container {
+    position: relative;
+    flex: 1;
+}
+
+.password-input-container .form-control {
+    padding-right: 35px; 
+}
+
+.form-icon {
+    color: lightgrey;
+    cursor: pointer;
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px; 
+}
+
+.form-group .btn-login {
+    width: 100%; 
+    background-color: #FF0000; 
+    color: #FFFFFF; 
+    font-family: 'Inter', sans-serif; 
+    font-weight: lighter; 
+    border: none; 
+    border-radius: 0; 
+    padding: 10px; 
+    cursor: pointer;
+}
+
+.form-check-input.custom-checkbox:checked {
+    background-color: black; 
+    border-color: black; 
+}
+
+.form-check-input.custom-checkbox:checked + .custom-label::before {
+    color: #fff; 
+    background-color: black; 
+    border-color: black; 
+    width: 15px; 
+    height: 15px; 
+}
+
+.custom-label {
+    font-family: 'Inter', sans-serif; 
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px; 
+    padding-right: 0.5em; 
+}
+
+.form-check-input.custom-checkbox {
+    transform: scale(0.7); 
+}
+
+.form-check-input {
+    margin-top: 14px;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0em;
+}
+
+.forgot-password-link {
+    font-family: 'Inter', sans-serif; 
+    color: #FF0000; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 15px;
+}

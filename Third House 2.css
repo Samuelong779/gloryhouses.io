@@ -1,0 +1,317 @@
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+form {
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: 'Karma', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+input {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.vertical-line {
+    width: 2px; 
+    height: 140px; 
+    background-color: #000; 
+    margin-left: 10px; 
+    margin-top: -14px; 
+}
+
+.icon-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: lightgrey;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.icon-container {
+    text-align: center; 
+    margin-left: 10px; 
+    margin-bottom: 50px;
+}
+
+.icon-text {
+    margin-left: 10px; 
+}
+
+.icon-image {
+    width: 24px; 
+    height: 24px; 
+}
+
+.additional-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: lightgrey;
+}
+
+.additional-text2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: rgb(189, 51, 51);
+    font-weight: bold;
+}
+
+.additional-text3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+.view-more {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.location-container {
+    text-align: right; 
+    margin-top: -20px; 
+}
+
+.view-on-map {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #FF0000;
+    text-decoration: none;
+    margin-right: 36px; 
+    padding-left: 5px; 
+}
+
+.location {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+.svg-icon-container {
+    margin-right: 50px; 
+}
+
+.image-container {
+    text-align: center;
+}
+
+#user-image {
+    max-width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+.review-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rating-text {
+    font-family: 'Inter', sans-serif;
+    color: lightgrey;
+    font-size: 15px;
+}
+
+.stars {
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+}
+
+.star {
+    font-size: 15px;
+    color: #ccc;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+.star.active {
+    color: rgb(239, 184, 32);
+}
+
+.form-title2{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.non-rounded-form {
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 0; 
+}
+
+.whatsapp-container {
+    text-align: center;
+    margin: 0 auto; 
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    max-width: 400px;
+}
+
+.whatsapp-link {
+    text-decoration: none;
+}
+
+.whatsapp-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+.phone-container {
+    text-align: center;
+    margin: 0 auto; 
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    max-width: 400px;
+}
+
+.phone-link {
+    text-decoration: none;
+}
+
+.view-phone-number-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+.phone-icon-image{
+    height: 24px;
+    width: 24px;
+}
+
+.email-container {
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    max-width: 400px;
+}
+
+.email-link {
+    text-decoration: none;
+}
+
+.send-enquiry-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+.email-icon-image{
+    height: 24px;
+    width: 24px;
+}
+
+.house-image {
+    width: 460px;
+    height: 188px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.albert-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+.rating-container {
+  text-align: center;
+  margin-top: -5px;
+}
+
+.rating-container .stars {
+  display: inline-block;
+  font-size: 0;
+  position: relative;
+  margin-right: 10px; 
+}
+
+.rating-container .star {
+  font-size: 15px;
+  color: #ccc;
+  cursor: pointer;
+  margin: 0 2px;
+}
+
+.rating-container .star.active {
+  color: #1c9957; 
+}
+
+.rating-date {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: lightgrey;
+  margin-top: 5px;
+  margin-right: -38px; 
+}
+
+.review-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #000000;
+    margin-right: 100px;
+}
+
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; 
+    color: #5B40FF;
+    margin-left: 20px; 
+}  

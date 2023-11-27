@@ -1,0 +1,90 @@
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+form {
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: 'Karma', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+input {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.vertical-line {
+    width: 2px; 
+    height: 140px; 
+    background-color: #000; 
+    margin-left: 10px; 
+    margin-top: -14px; 
+}
+
+.icon-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: lightgrey;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.icon-container {
+    text-align: center; 
+    margin-left: 10px; 
+    margin-bottom: 50px;
+}
+
+.icon-text {
+    margin-left: 10px; 
+}
+
+.icon-image {
+    width: 24px; 
+    height: 24px; 
+}

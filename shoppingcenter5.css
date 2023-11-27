@@ -1,0 +1,29 @@
+.body {
+    background-color: #FFFFFF;
+}
+
+.ativa {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.address {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #333333;
+}
+
+.img-thumbnail {
+    max-width: 500px; 
+    cursor: pointer; 
+    transition: width 0.3s ease; /
+}
+
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; 
+    color: #5B40FF;
+    margin-left: 20px; 
+}

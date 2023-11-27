@@ -1,0 +1,57 @@
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+.description {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: darkgreen;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(76, 175, 80, 0.8); 
+    text-align: start; 
+    margin-bottom: 20px; 
+}
+
+.img-fluid {
+    width: 100%; 
+    height: auto; 
+}
+
+.image-container {
+    text-align: center;
+}
+
+.img-thumbnail {
+    width: 300px; 
+    height: 300px;
+    max-width: 100%; 
+    max-height: 100%; 
+    cursor: pointer; 
+    transition: width 0.3s ease; 
+}
+
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; 
+    color: #5B40FF;
+    margin-left: 20px; 
+}  

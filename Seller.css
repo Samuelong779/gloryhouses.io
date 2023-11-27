@@ -1,0 +1,111 @@
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+.container {
+    margin-top: 0px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.left-image {
+    width: 100%; 
+    height: auto;
+}
+
+.right-image {
+    width: 50%; 
+    height: auto;
+}
+
+.photo-button {
+    background-color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    outline: 2px solid #000000;
+}
+
+.photo-button svg {
+    width: 20px; 
+    height: 20px; 
+    color: #000000;
+    margin-right: 10px; 
+}
+
+.button-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #000000;
+}
+
+.ellipse {
+    width: 14px; 
+    height: 14px; 
+    background-color: #35F505;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 2px;
+    display: inline-flex; 
+    align-items: center; 
+}
+
+.status-text {
+    font-family: 'Kantumruy', sans-serif;
+    font-size: 13px;
+    color: #B0AFAF;
+}
+
+.property-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #000000;
+}
+
+.action-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #B0AFAF;
+}
+
+.view-details-link {
+    font-family: 'Inter', sans-serif;
+    color: #FF0000;
+    font-size: 13px;
+    text-decoration: none; 
+}
+
+.view-details-link:hover {
+    text-decoration: none; 
+}
+
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; 
+    color: #5B40FF;
+    margin-left: 20px; 
+}  

@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #a1aab2, #ae9c6c);
+}
+
+.form-container {
+    text-align: center;
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.info{
+    font-display: flex;
+    justify-content: left;
+    align-items: left;
+    color: #007BFF;
+    font-size: 14px;
+    font-family: 'Kantumruy', sans-serif;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+}
+
+.form-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background: #0056b3;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.register-link {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.title {
+    font-family: 'Karma', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000000;
+}
+
+.email {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: darkgrey;
+}
+
+.password {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: darkgrey;
+}
+
+.text {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}

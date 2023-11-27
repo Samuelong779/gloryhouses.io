@@ -1,0 +1,94 @@
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #574FFF;
+    color: #fff;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-content .btn-close {
+    color: #fff;
+}
+
+.border.p-3 {
+    border: 2px solid #574FFF; 
+    border-radius: 15px; 
+    padding: 20px; 
+}
+
+.btn-link {
+    font-family: 'Kameron', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #574FFF;
+    text-decoration: none;
+    text-shadow: 3px 3px 2px rgba(167, 119, 212, 0.7); 
+}
+
+.btn-link:hover {
+    color: #5762FF;
+}
+
+@media (min-width: 768px) {
+    .modal-lg {
+        max-width: 800px;
+    }
+}
+
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none;
+    color: #5B40FF;
+    margin-left: 20px; 
+}  
+
+.text {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.privacy {
+    font-family: 'Karma', sans-serif;
+    font-size: 20px;
+    color: seagreen;
+    font-weight: 600;
+    text-shadow: 3px 3px 2px rgba(135, 240, 8, 0.7);  
+    text-decoration: none;
+}
