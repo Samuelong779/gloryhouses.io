@@ -1,0 +1,228 @@
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+.rounded-square {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #000000 !important; 
+}
+
+.rounded-square.border {
+    border-radius: 35px;
+}
+
+.btn.btn-outline-primary {
+    color: #0057FF; 
+    font-family: 'Inter', sans-serif; 
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+h3 {
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif; 
+}
+
+p {
+    font-family: 'Inter', sans-serif; 
+    color: #A7A7A7; 
+    text-align: left;
+    font-size: 13px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.footer-links {
+    list-style: none;
+    text-align: center; 
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'r', sans-serif;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+}
+
+.footer-line {
+    width: 90%; 
+    margin: 0 auto; 
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.text-container {
+    text-align: left;
+    margin-left: 250px; 
+}
+
+.footer-text {
+    font-family: 'Inter', sans-serif;
+    color: #939393;
+    margin-top: 20px; 
+}
+
+.follow-us {
+    color: #939393; 
+    font-family: 'Inter', sans-serif; 
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+}
+
+.icon {
+    text-decoration: none; 
+    margin-right: 20px;
+}
+
+.icon1 {
+    text-decoration: none;
+}
+
+.city {
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: -60px auto;
+}
+
+.subang {
+    font-family: Kameron;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.img1 {
+    height: 260px;
+    width: 350px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.chat-button {
+    background-color: #FFFCFC;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    border-radius: 50%; 
+    border: 1px solid #000000;
+    text-decoration: none; 
+    padding: 15px; 
+    display: inline-block;
+    width: 120px; 
+    height: 20px; 
+    text-align: center; 
+    line-height: 3px; 
+}
+
+.col-start {
+    flex: 1; 
+}
+
+.col-end {
+    flex: 0; 
+    margin-left: auto; 
+}
+
+.svg-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.fs-text {
+    color: #CA9483;
+    font-family: Kameron;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fs-text1 {
+    color: #000000;
+    font-family: Kameron;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.house1 {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.navbar.bg-white {
+    display: flex;
+    flex-direction: column; 
+    align-items: right; 
+    justify-content: center; 
+    height: 100%; 
+}
+
+.fs-text2 {
+    color: #000000;
+    font-weight: normal;
+    font-family: Kameron;
+    font-size: 15px;
+    text-align: center; 
+}
+
+.form-control {
+    border-radius: 0; 
+    font-family: 'Kantumruy', sans-serif;
+    color: #A9A9A9; 
+}
+
+.search {
+    background-color: #E9FC9F; 
+    font-family: 'Kantumruy', sans-serif;
+    color: #000000; 
+    border-radius: 0; 
+    border: 1px solid lightgrey;
+}
+
+.btn.search {
+    padding: 5px 15px;
+}

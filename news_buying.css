@@ -1,0 +1,277 @@
+.navbar nav {
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+.navbar.navbar-below {
+    background-color: #0f1106 !important;
+}
+
+.navbar.navbar-below .navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar.navbar-below .navbar-nav .nav-item {
+    margin: 0 10px; 
+}
+
+.navbar.navbar-below .navbar-nav .nav-link {
+    color: #fff; 
+}
+
+.navbar.navbar-below .form-inline {
+    display: flex;
+}
+
+.navbar.navbar-below .form-control {
+    width: 200px; 
+    margin-right: 10px; 
+}
+
+.navbar.navbar-below .btn {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar.navbar-below .btn:hover {
+    background-color: #ccc; 
+}
+
+.buying-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.buying-content h2,
+.buying-content p {
+    width: 100%;
+}
+
+.buying-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buying-details .image-box {
+    flex: 1;
+    max-width: 48%;
+}
+
+.buying-details .popular-readings-box {
+    flex: 1;
+    max-width: 48%;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.buying-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.popular-readings-box h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.popular-readings-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.popular-readings-box li {
+    margin-bottom: 8px;
+}
+
+.popular-readings-box li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.popular-readings-box li a:hover {
+    text-decoration: underline;
+}
+.news-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 48%;
+}
+
+.thumbnail {
+    max-width: 100px;
+    max-height: 75px;
+    margin-right: 15px;
+}
+
+.news-content {
+    flex: 1;
+}
+
+.news-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.news-title a {
+    color: black;
+    text-decoration: none;
+}
+
+.news-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.feature-section.comments-section {
+    position: relative;
+}
+
+.feature-section.comments-section button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.feature-section.comments-section button:hover::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    background: #333;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+#comments-container {
+    margin-top: 20px;
+    
+}
+
+.comment {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.comment img {
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment p {
+    flex: 1;
+    margin: 0;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;
+}
+.additional-features {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.feature-section {
+    margin-bottom: 20px;
+}
+
+.feature-section h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.social-media-sharing a{
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    transition: background-color 0.3s;
+}
+
+.social-media-sharing a:hover{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.comments-section{
+    max-width: 100%;
+}
+
+.comments-section textarea{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.comments-section textarea {
+    height: 100px;
+}

@@ -1,0 +1,139 @@
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+.title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: #000000;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px rgba(226, 47, 47, 0.7); 
+}
+
+.text {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.features-list {
+    margin-left: 18px;
+    padding: 0;
+}
+
+.features-list li {
+    margin-bottom: 10px;
+}
+
+.feature-item {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.feature-item.wide-selection {
+    color: #FF5733; 
+    font-weight: 600;
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+}
+
+.feature-item.expert-guidance {
+    color: #009688; 
+    font-weight: 600;
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+}
+
+.feature-item.trustworthy-transactions {
+    color: #4CAF50; 
+    font-weight: 600;
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+}
+
+.feature-item.innovative-technology {
+    color: #2196F3;
+    font-weight: 600;
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+}
+
+.img-fluid {
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
+    padding: 5px; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img-fluid:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.special-glory-house-inside {
+    font-family: 'Kameron', sans-serif;
+    font-size: 36px;
+    color: #4CAF50; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(76, 175, 80, 0.8); 
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.special-glory-house-inside:hover {
+    transform: scale(1.1);
+    color: #689F38; 
+}
+
+.bordered-container {
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
+    padding: 15px; 
+    text-align: center; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bordered-container:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; 
+    color: #5B40FF;
+    margin-left: 20px; 
+}  
+
+.special-button {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color: darkred;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 3px 3px 2px rgba(216, 150, 143, 0.8); 
+}

@@ -1,0 +1,89 @@
+.navbar {
+    background-color: #C5C1C1 !important;
+}
+
+.navbar .navbar-nav.mr-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar .navbar-nav.ml-auto .nav-link {
+    font-family: 'Karma', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand.mx-auto img {
+    width: 70px;
+    height: 50px;
+}
+
+.description {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+    color: darkcyan;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px rgba(126, 222, 229, 0.7); 
+}
+
+.text {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.btn-chatbot {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.btn-chatbot:hover {
+    color: #FFFFFF; 
+}
+
+.btn-success {
+    background-color: #4CAF50;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.input-group-text i.fa-whatsapp { color: #25D366; } 
+.input-group-text i.fa-phone { color: #34B7F1; } 
+.input-group-text i.fa-envelope { color: #EA4335; } 
+
+.contact-label {
+    text-align: start; 
+    padding-top: 8px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.form-control {
+    font-family: 'Karma', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.go-back-button {
+    font-family: 'Adamina', sans-serif;
+    text-decoration: none; 
+    color: #5B40FF;
+    margin-left: 20px; 
+}  
